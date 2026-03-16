@@ -1,0 +1,30 @@
+# Screen dimensions
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 600
+CELL_SIZE = 20
+
+# Colors (RGB)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+GRAY= (54, 54, 54)
+
+# Game settings
+FPS = 10
+INITIAL_SNAKE_LENGTH = 3
+SNAKE_COLOR = GREEN
+FOOD_COLOR = RED
+TEXT_COLOR = WHITE
+
+# Directions
+RIGHT = 'right'
+LEFT = 'left'
+UP = 'up'
+DOWN = 'down'
+
+# Grid settings
+GRID_WIDTH = WINDOW_WIDTH // CELL_SIZE
+GRID_HEIGHT = WINDOW_HEIGHT // CELL_SIZE
